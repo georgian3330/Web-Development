@@ -41,7 +41,7 @@
 
 * Anchor Elements
     * `<a href="URL"></a>`
-    : The href attribute in HTML is used to specify the destination of a hyperlink. It stands for Hypertext Reference and is a crucial part of the `<a>` (anchor) tag, which defines a hyperlink. Without the **href** attribute, the `<a>` tag will not function as a hyperlink.
+    : used to specify the destination of a hyperlink. It stands for Hypertext Reference and is a crucial part of the `<a>` (anchor) tag, which defines a hyperlink.
 
 * Image Elements
     * `<img src="Image_URL" />`
