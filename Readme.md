@@ -32,3 +32,17 @@
     | Ordered List | Unordered List |
     | ------------ | -------------- |
     | `<ol>`<br>`<li>Item 1</li>`<br>`<li>Item 2</li>`<br>`</ol>` | `<ul>`<br>`<li>Item A</li>`<br>`<li>Item B</li>`<br>`</ul>` |
+
+* Nesting & Indentation
+    * `Nesting`
+    : placing one HTML element inside another to create a hierarchy or structure.
+    * `Indentation`
+    : adding spaces or tabs at the start of lines to visually represent the nesting level.
+
+* Anchor Elements
+    * `<a href="URL"></a>`
+    : The href attribute in HTML is used to specify the destination of a hyperlink. It stands for Hypertext Reference and is a crucial part of the `<a>` (anchor) tag, which defines a hyperlink. Without the **href** attribute, the `<a>` tag will not function as a hyperlink.
+
+* Image Elements
+    * `<img src="Image_URL" />`
+    : used to embed images into a webpage. <br />The src attribute specifies the path or URL of the image file you want to display.
