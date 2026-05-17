@@ -17,11 +17,18 @@
     : Even Smaller Heading (H5)
     * `<h6></h6>`
     : Smallest Heading (H6)
+
 * Paragraph Elements
     * `<p></p>`
     : used to define a paragraph.
+
 * Self Closing Tags
     * `<hr />` 
     : Horizontal rule - used to create a horizontal rule (a horizontal line) that represents a thematic break in content.
     * `<br />`
     : Line Break Element - used to force text to continue on the next line.
+
+* List Element
+    | Ordered List | Unordered List |
+    | ------------ | -------------- |
+    | `<ol>`<br>`<li>Item 1</li>`<br>`<li>Item 2</li>`<br>`</ol>` | `<ul>`<br>`<li>Item A</li>`<br>`<li>Item B</li>`<br>`</ul>` |
