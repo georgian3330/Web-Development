@@ -31,7 +31,7 @@
 * List Element
     | Ordered List | Unordered List |
     | ------------ | -------------- |
-    | `<ol>`<br>&emsp;`<li>Item 1</li>`<br>&emsp;`<li>Item 2</li>`<br>`</ol>` | `<ul>`<br>&emsp;`<li>Item A</li>`<br>`&emsp;<li>Item B</li>`<br>`</ul>` |
+    | `<ol>`<br>&emsp;`<li>Item 1</li>`<br>&emsp;`<li>Item 2</li>`<br>`</ol>` | `<ul>`<br>&emsp`<li>Item A</li>`<br>`&emsp;<li>Item B</li>`<br>`</ul>` |
 
 * Nesting & Indentation
     * `Nesting`
