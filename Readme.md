@@ -49,12 +49,12 @@
 
 **2. CSS (Cascading Style Sheets)**
 
-* Inline CSS
+* **Inline CSS**
     > Used for only one element in HTML
     ```
-    <opening_tag style="color:blue">...</closing_tag>
+    <opening_tag style="color:blue;">...</closing_tag>
     ```
-* Internal CSS
+* **Internal CSS**
     > Used for one webpage
     
     ``` 
@@ -67,9 +67,9 @@
     </head>
     ```
     
-* External CSS
+* **External CSS**
     > Used for multi-webpages
-    
+
     **index.html** File
     ```
     <head>
@@ -82,5 +82,23 @@
         color:green;
     }
     ```
+
+* CSS Selectors
+    ```
+    <css_selector>{
+        property_1 : value;
+        property_2 : value;
+    }
+    ```
+    * Element Selector
+    : `<html_element>`
+    * Class Selector
+    : `.<class_name>`
+    * Id Selector
+    : `#<Id_name>`
+    * Attribute Selector
+    : `<html_element>[<attribute_name]`
+    * Universal Selector
+    : `*`
 
 ## ✅ Backend Development
