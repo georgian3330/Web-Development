@@ -51,9 +51,36 @@
 
 * Inline CSS
     > Used for only one element in HTML
+    ```
+    <opening_tag style="color:blue">...</closing_tag>
+    ```
 * Internal CSS
     > Used for one webpage
+    
+    ``` 
+    <head>
+        <style>
+                h1{
+                    color:blue;
+                }
+        </style>
+    </head>
+    ```
+    
 * External CSS
     > Used for multi-webpages
+    
+    **index.html** File
+    ```
+    <head>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    ```
+    **style.css** File
+    ```
+    h1{
+        color:green;
+    }
+    ```
 
 ## ✅ Backend Development
