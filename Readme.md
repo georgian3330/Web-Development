@@ -101,4 +101,33 @@
     * Universal Selector
     : `*`
 
+* CSS Specificity
+: a set of rules that determines which CSS styles are applied when multiple selectors target the same HTML element.
+
+    * Specificity
+    : Id > Attribute > Class > Element
+
+    * Type
+    : Inline CSS > Internal CSS > External CSS
+
+    * Importance
+    : `!important`
+
+* Combining CSS Selector
+    * Grouping
+    * Child
+    * Descendant
+    * Chaining
+    * Multiple Combiners
+
+* CSS Positioning
+    * Static Positioning
+    : Default position
+    * Relative Positioning
+    : Position relative to default position
+    * Absolute Positioning
+    : Position relative to nearest positioned ancestor or top left corner of webpage
+    * Fixed Positioning
+    : Position relative to top left corner of browser window
+
 ## ✅ Backend Development
