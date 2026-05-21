@@ -146,7 +146,8 @@
 : Responsive web design (RWD) is a web design approach to make web pages render well on all screen sizes and resolutions while ensuring good usability.
 
     * CSS Media Query
-        ```
+    
+    ```
         @media(<feature1> : value) and (<feature2> : value){
             <css_selector> {
                 <property1> : value;
