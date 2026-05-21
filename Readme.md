@@ -120,7 +120,7 @@
     * Chaining
     * Multiple Combiners
 
-* CSS Positioning
+* CSS Positioning (`position`)
     * Static Positioning
     : Default position
     * Relative Positioning
@@ -129,5 +129,34 @@
     : Position relative to nearest positioned ancestor or top left corner of webpage
     * Fixed Positioning
     : Position relative to top left corner of browser window
+
+* CSS Display Property (`display`)
+    * Block
+    * Inline
+    * Inline-Block
+    * None
+
+* CSS Float Property (`float`)
+    * Left
+    * Right
+    > Clear Property
+    : `clear` property is used to control the layout of an element in relation to floating elements.
+
+* Responsive Web Design
+: Responsive web design (RWD) is a web design approach to make web pages render well on all screen sizes and resolutions while ensuring good usability.
+
+    * CSS Media Query
+        ```
+        @media(<feature1> : value) and (<feature2> : value){
+            <css_selector> {
+                <property1> : value;
+                <property2> : value;
+            }
+        }
+    ```
+    * CSS Flexbox
+    * CSS Grid
+    * Bootstrap Framework
+
 
 ## ✅ Backend Development
