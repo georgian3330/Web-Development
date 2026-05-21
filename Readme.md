@@ -154,7 +154,7 @@
             }
         }
     ```
-    
+
     * CSS Flexbox
     * CSS Grid
     * Bootstrap Framework
