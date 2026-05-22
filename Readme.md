@@ -157,6 +157,26 @@
     ```
 
     * CSS Flexbox
+    : CSS Flexbox is a one-dimensional layout model that allows you to design flexible and responsive layout structures without using float or positioning. It is particularly useful for distributing space between items and aligning them within a container.
+
+    ```
+    .container {
+        display : flex; /* or inline-flex; */
+        gap : 10px;
+        flex-direction : row; /* or column; */
+        flex-basis : 100px;
+        order : 0; /* <int_value>; */
+        flex-wrap : nowrap; /* wrap; */
+        justify-content : flex-start; /* flex-end;/center;/space-between;/space-around;/space-evenly; */
+        align-items : flex-start; /* flex-end;/baseline;/center;/stretch; */
+        height : 70vh(viewport height);
+        flex-grow : 0;
+        flex-shrink : 1;
+    }
+    ```
+
+    > Priority: **content-width < width < flex-basis < min-width/max-width**
+
     * CSS Grid
     * Bootstrap Framework
 
