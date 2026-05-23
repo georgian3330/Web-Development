@@ -178,6 +178,17 @@
     > Priority: **content-width < width < flex-basis < min-width/max-width**
 
     * CSS Grid
+    : CSS grid layout module excels at dividing a page into major regions or defining the relationship in terms of size, position, and layering between parts of a control built from HTML primitives.
+
+        ```
+        .container{
+            display : grid;
+            grid-template-columns : 1fr 2fr;
+            grid-template-rows : 1fr 1fr;
+            gap : 10px;
+        }
+        ```
+
     * Bootstrap Framework
 
 
