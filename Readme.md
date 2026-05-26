@@ -51,37 +51,13 @@
 
 * **Inline CSS**
     > Used for only one element in HTML
-    ```
-    <opening_tag style="color:blue;">...</closing_tag>
-    ```
+
 * **Internal CSS**
     > Used for one webpage
-    
-    ``` 
-    <head>
-        <style>
-                h1{
-                    color:blue;
-                }
-        </style>
-    </head>
-    ```
     
 * **External CSS**
     > Used for multi-webpages
 
-    **index.html** File
-    ```
-    <head>
-        <link rel="stylesheet" href="./style.css" />
-    </head>
-    ```
-    **style.css** File
-    ```
-    h1{
-        color:green;
-    }
-    ```
 
 * CSS Selectors
     ```
@@ -146,52 +122,11 @@
 : Responsive web design (RWD) is a web design approach to make web pages render well on all screen sizes and resolutions while ensuring good usability.
 
     * CSS Media Query
-    
-    ```
-        @media(<feature1> : value) and (<feature2> : value){
-            <css_selector> {
-                <property1> : value;
-                <property2> : value;
-            }
-        }
-    ```
-
     * CSS Flexbox
-    : CSS Flexbox is a one-dimensional layout model that allows you to design flexible and responsive layout structures without using float or positioning. It is particularly useful for distributing space between items and aligning them within a container.
-
-    ```
-    .container {
-        display : flex; /* or inline-flex; */
-        gap : 10px;
-        flex-direction : row; /* or column; */
-        flex-basis : 100px;
-        order : 0; /* <int_value>; */
-        flex-wrap : nowrap; /* wrap; */
-        justify-content : flex-start; /* flex-end;/center;/space-between;/space-around;/space-evenly; */
-        align-items : flex-start; /* flex-end;/baseline;/center;/stretch; */
-        height : 70vh(viewport height);
-        flex-grow : 0;
-        flex-shrink : 1;
-    }
-    ```
-
-    > Priority: **content-width < width < flex-basis < min-width/max-width**
-
     * CSS Grid
-    : CSS grid layout module excels at dividing a page into major regions or defining the relationship in terms of size, position, and layering between parts of a control built from HTML primitives.
-
-        ```
-        .container{
-            display : grid;
-            grid-template-columns : 1fr 2fr;
-            grid-template-rows : 1fr 1fr;
-            gap : 10px;
-        }
-        ```
-
     * Bootstrap Framework
-    : Bootstrap is a popular framework for building responsive, mobile-first websites. To include Bootstrap in your HTML, you can use a CDN (Content Delivery Network) to link to the Bootstrap CSS and JavaScript files.
-
 
 
 ## ✅ Backend Development
+
+**1. JAVASCRIPT**
