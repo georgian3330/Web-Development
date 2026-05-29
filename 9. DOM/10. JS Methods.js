@@ -3,6 +3,8 @@ function car(brand, name, base_modelYr, models){
     this.name = name;
     this.base_modelYr = base_modelYr;
     this.models = models;
+
+    // Method
     this.drive = function(){
         alert("Driving started...");
     }
