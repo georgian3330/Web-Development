@@ -4,6 +4,8 @@
     npm install qr-image
 */
 
+// In package.json, add "type": "module",
+
 import inquirer from "inquirer";
 import qr from "qr-image";
 import fs from "fs";
