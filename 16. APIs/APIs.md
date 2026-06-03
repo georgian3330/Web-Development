@@ -7,7 +7,7 @@
 > BaseURL/Endpoint?query=value
 
 <!-- Multiple Query Parameters -->
-[API Link](https://bored-api.appbrewery.com/)
+AppBrewery Bored API Document [API Link](https://bored-api.appbrewery.com/)
 > BaseURL/Endpoint?query1=value1&query2=value2
 
     https://bored-api.appbrewery.com/filter?type=education
