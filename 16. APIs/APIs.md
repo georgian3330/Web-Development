@@ -21,9 +21,16 @@
 
 <!-- Path Parameters -->
 ### Path Parameters
-> https://bored-api.appbrewery.com/endpoint/{path-parameter}
+> BaseURL/endpoint/{path-parameter}
 
 * `endpoint` - Fixed Parameter 
 * `path-parameter` - Dynamic Parameter (username, id)
 
     https://bored-api.appbrewery.com/activity/3943506
+
+### API Authentication
+
+1. No Authentication
+2. Basic Authentication
+3. API Key Authorization
+4. Token Based Authentication
