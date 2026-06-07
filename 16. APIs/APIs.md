@@ -34,3 +34,20 @@
 2. Basic Authentication
 3. API Key Authorization
 4. Token Based Authentication
+
+
+## Making your own API
+* Rapid API 👉 [API For Developers](https://rapidapi.com/hub)
+
+### What makes an API RESTful?
+
+1. HTTP Method
+    1. GET
+    2. POST
+    3. PUT
+    4. PATCH
+    5. DELETE
+2. JSON Format Output
+3. Client-Server are completely separate
+4. Stateless
+5. Resource-Based
