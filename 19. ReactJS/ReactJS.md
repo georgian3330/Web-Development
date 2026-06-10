@@ -16,7 +16,7 @@ https://codesandbox.io/
 * **Step 4 : Create a Vite app**
 
     Create a Vite app by running the following command in your Terminal or Command Prompt:
-    > `npm create vite@latest my-react-app --template react`
+    `npm create vite@latest my-react-app --template react`
 
 * **Step 5 : vite Installation**
 
