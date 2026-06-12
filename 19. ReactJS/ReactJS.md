@@ -1,4 +1,7 @@
 https://codesandbox.io/
+
+Babel is a JavaScript compiler.
+
 ## Local Development Setup
 
 * **Step 1 : Download NodeJS** 
