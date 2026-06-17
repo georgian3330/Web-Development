@@ -79,3 +79,31 @@ Babel is a JavaScript compiler.
     ![vite react](./images/vite%20react.gif)
 
     Again, I recommend following the videos and using CodeSandbox, but if you are more advanced and prefer to develop locally then you should now be ready to adapt the video code to your local version.
+
+## ES6 Functions
+
+1. **Map Function**
+2. **Filter Function**
+3. **Reduce Function**
+4. **Find Function**
+5. **FindIndex Function**
+6. **Arrow Function**
+
+## Conditional Rendering
+
+* **Ternary Operator**
+    ```
+    {if_something === true ? then_do_this : otherwise_do_this}
+    ```
+
+    ```
+    {if_something_is_true ? then_print_this_expression : otherwise_return null}
+    ```
+
+* **Double Ampercent**
+    ```
+    {if_statement_1_is_true && then_print_this_expression_otherwise_not}
+    ```
+
+## React State
+    * Declarative Programming - Changing the user interface while interacting
