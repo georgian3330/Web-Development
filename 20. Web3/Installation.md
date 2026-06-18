@@ -36,6 +36,7 @@
 
 
 7. You should see it output something like this:
+
     ![Output Image](https://docs.google.com/u/0/docs-images-rt/APuouOfc8yrNdgLFRueXERalXoF34RQ0vliejqcmdCCFjC3R2ZPEA7xkCdB2kWn3vwvQjGSKpZphWOOlhRXmrcNrRKV3OVZDQ5GLkax6QX30yzJYSe4XullMsEiJFl4UF3FXlK1Cto6QnXu116s7Bd3BC-zrFVb62LxzKs6r8LuU=s2048)
 
 
@@ -47,11 +48,10 @@
 
 9.  Install the Motoko language extension in VSCode (make sure it’s from the Dfinity team, or just use the link below).
 
-    [https://marketplace.visualstudio.com/items?itemName=dfinity-foundation.vscode-motoko](https://marketplace.visualstudio.com/items?itemName=dfinity-foundation.vscode-motoko)
+    [https://marketplace.visualstudio.com/items?itemName=dfinity-foundation.vscode-motoko/](https://marketplace.visualstudio.com/items?itemName=dfinity-foundation.vscode-motoko/)
 
 
-10.  Install the Remote WSL extension.
-
+10.  Install the Remote WSL extension:
     [https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
 
 
@@ -72,9 +72,8 @@
 
 
 14.  The installer will tell you how to add brew to the PATH. Copy the  commands they list and run them one by one in Ubuntu.
-e.g.
-
-    ![Image link](https://docs.google.com/u/0/docs-images-rt/APuouOfIZ9WTsvZJgE5LVFsSBxsJrnMbAYFdFF1JcJ7YERqwD7CtcK3OKk9pk5YSVn6wjUemKoRXUwggvmv5J4rFEhCZFeH8XabZqkz8fGWeX67ZRQZl1jtLqlwAc2vwSXx-EOJbLW1VT6K_-NHtTouPmoQz5giNEki5MAb0FA=s2048)
+    e.g.
+    ![Installation link](https://docs.google.com/u/0/docs-images-rt/APuouOfIZ9WTsvZJgE5LVFsSBxsJrnMbAYFdFF1JcJ7YERqwD7CtcK3OKk9pk5YSVn6wjUemKoRXUwggvmv5J4rFEhCZFeH8XabZqkz8fGWeX67ZRQZl1jtLqlwAc2vwSXx-EOJbLW1VT6K_-NHtTouPmoQz5giNEki5MAb0FA=s2048)
 
 
 15. Also run the command under the line “Install Homebrew’s dependencies if you have sudo access”:
@@ -110,22 +109,20 @@ e.g.
 
 
 20.  Copy the following command and paste it into your terminal and hit enter to install DFX.
-    ```
-    DFX_VERSION=0.9.3 sh -ci "$(curl -fsSL https://sdk.dfinity.org/install.sh)"
-    ```
 
-    After DFX has installed it will tell you where it was installed. e.g.
+    DFX_VERSION=0.9.3 sh -ci "$(curl -fsSL https://sdk.dfinity.org/install.sh)"
+
+
+* After DFX has installed it will tell you where it was installed. e.g.
     ![Image Link](https://docs.google.com/u/0/docs-images-rt/APuouOdIRanCMqzHfQGEYatozF6VzJpOYqkDqhrtHobnsF_BwZrzNK6T5WD145opCf-8AEg6v-kQ_ra578LigDhtwm92886haxMvfRdl2fSx2Ndo40F_NW2prcj1J3JVVr_AX__ncBi5VZvk5AV2MEia24OFcLu5-mbGMaut0A=s2048)
 
-    e.g. in my case, it tells me that it has been installed in /home/angela/bin/dfx
+    e.g. in my case, it tells me that it has been installed in `/home/angela/bin/dfx`
 
 
-21.  Copy the installation path you got from the last step and replace <REPLACE WITH YOUR INSTALLATION PATH> from the command below (You can use Notepad for this):
-    ```
-    export PATH=$PATH:<REPLACE WITH YOUR INSTALLATION PATH>
-    ```
+21.  Copy the installation path you got from the last step and replace `<REPLACE WITH YOUR INSTALLATION PATH>` from the command below (You can use Notepad for this):
+    ```export PATH=$PATH:<REPLACE WITH YOUR INSTALLATION PATH>```
 
-    E.g. in my case it would be export PATH=$PATH:/home/angela/bin/dfx
+>>> E.g. in my case it would be `export PATH=$PATH:/home/angela/bin/dfx`
 
 
 22.  Paste the formatted command from the previous step and hit enter.
